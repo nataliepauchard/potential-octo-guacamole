@@ -6,6 +6,7 @@ let player2;
 let player1Turn = true;
 let turnCounter = 0;
 
+//Event handler - One function that set's player turn
 
 $('.square').click(function() {
 
@@ -53,7 +54,7 @@ $('#play').click(function() {
 // //     [2, 4, 6]
 // // ];
 
-//Below function is called within the conditional functions above
+//Below function is called within the conditional functions above. (Not DRY - but it works)
 
 const winCheck = function(player, turnCounter){
   const sqr0 = $('#sqr0').attr('class');
