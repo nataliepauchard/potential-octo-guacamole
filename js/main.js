@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-
+// create let variables cause they need to change throughout the game
 let player1;
 let player2;
 let player1Turn = true;
@@ -31,6 +31,8 @@ const playerChoice = function () {
   }
 }
 
+
+//Below calls above function, opens prompt and sets up player turns
 $('#play').click(playerChoice);
 
 $('#play').click(function() {
@@ -50,6 +52,8 @@ $('#play').click(function() {
 // //     [0, 4, 8],
 // //     [2, 4, 6]
 // // ];
+
+//Below function is called within the conditional functions above
 
 const winCheck = function(player, turnCounter){
   const sqr0 = $('#sqr0').attr('class');
@@ -94,7 +98,7 @@ else if (sqr2 === sqr4 && sqr4 === sqr6  && sqr2 !== 'square') {
   const outcome = (`Nice one ${player}, YOU WON!`);
   $('#screen').html(outcome);
 }
-if (turnCounter == 9) {
+else if (turnCounter == 9) {
   const outcome = ("IT'S A CAT'S GAME! Refresh the page & play again.");
   $('#screen').html(outcome);
 }
@@ -102,5 +106,3 @@ if (turnCounter == 9) {
 
 
 }); //document.ready don't delete!!!
-
-// Reset button required
