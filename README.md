@@ -37,12 +37,12 @@ The game's name was slightly altered to reflect the theme of the page and also a
 ## Images Used
 
 The images were pulled from placekitten.com:
-![Felix the Cat] ("http://placekitten.com/250/250")
-![Salem the Cat] ("http://placekitten.com/245/245")
+Felix the Cat: ("http://placekitten.com/250/250")
+Salem the Cat: ("http://placekitten.com/245/245")
 
 ## Link to The Game
 
-![Tic-Cat-Toe] ("https://nataliepauchard.github.io/potential-octo-guacamole/")
+Tic-Cat-Toe: ("https://nataliepauchard.github.io/potential-octo-guacamole/")
 
 ### Bugs
 
