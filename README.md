@@ -34,6 +34,16 @@ Therefore, one function was eventually created to discern between first player a
 
 The game's name was slightly altered to reflect the theme of the page and also a play on words, especially the term 'Cat's Game' which means when two players draw. Instead of naughts and crosses the game uses images and names of cats.
 
+## Images Used
+
+The images were pulled from placekitten.com:
+Felix the Cat: ("http://placekitten.com/250/250")
+Salem the Cat: ("http://placekitten.com/245/245")
+
+## Link to The Game
+
+Tic-Cat-Toe: ("https://nataliepauchard.github.io/potential-octo-guacamole/")
+
 ### Bugs
 
 - The project is still a work in progress, especially the selection of players at the start with many potential user errors.
@@ -46,7 +56,7 @@ The game's name was slightly altered to reflect the theme of the page and also a
 
 - A player selection method that is less error prone.
 
-- More attractive animations.
+- Include some animations.
 
 - De-bugging certain combinations.
 
